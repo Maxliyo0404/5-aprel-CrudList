@@ -8,7 +8,7 @@ function crudList (){
       ${item}
       <div>
           <button onclik ="edit(${i})>✏️</button>
-          <button onclik ="edit(${i})>🗑</button>
+          <button onclik ="delete(${i})>🗑</button>
             </div>
        </li>
     `).join("");
@@ -16,6 +16,10 @@ function crudList (){
 function add (){
  if(input.value.trim()){
  data.push(input.value.trim());
-
+ input.value = "";
+ crudList();
  }
+}
+function edit(){
+    let 
 }
