@@ -25,3 +25,23 @@ h1{
     letter-spacing: 1px;
 
 }
+.input{
+    width: 200px;
+   padding: 8px 12px;
+   border: 1px solid #ccc;
+   border-radius: 6px;
+    outline: none;
+}
+.button{
+  background: #4A90E2;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  color: white;
+  &:hover{
+    background: #357ABD;
+    transform: scale(1.05);
+  }
+}
