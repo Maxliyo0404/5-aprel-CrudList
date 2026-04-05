@@ -2,7 +2,7 @@
 let data = [];
 
 function crudList (){
-    if (event) event.preventDefault;
+    if (event) event.preventDefault();
     list.innerHTML = data.map((item, i) => `
     <li>
       ${item}
@@ -14,5 +14,8 @@ function crudList (){
     `).join("");
 }
 function add (){
+ if(input.value.trim()){
+ data.push(input.value.trim());
 
+ }
 }
