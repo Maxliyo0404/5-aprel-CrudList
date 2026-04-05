@@ -6,7 +6,7 @@ function crudList (){
     <li>
       ${item}
       <div>
-          <button onclik ="edit(${i})></button>
+          <button onclik ="edit(${i})>✏️</button>
           <button onclik ="edit(${i})></button>
             </div>
        </li>
