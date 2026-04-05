@@ -3,6 +3,7 @@ let data = [];
 
 function crudList (){
     if (event) event.preventDefault();
+    let list = document.getElementById('list');
     list.innerHTML = data.map((item, i) => `
     <li>
       ${item}
