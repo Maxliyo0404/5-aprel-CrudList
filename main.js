@@ -34,3 +34,10 @@ function edit(i){
  }
 
 }
+function del (i){
+    if (confirm()) {
+        
+    } else {
+        
+    }
+}
