@@ -23,10 +23,14 @@ function add (){
     alert("Please provide an input");
  }
 }
-function edit(){
-    let new = prompt("Edit your item:");
-    if(new && new.trim()) 
-    data[i] = new.trim();
-crudList();
+function edit(i){
+    let newedit = prompt("Edit your item:");
+    if(newedit && newedit.trim()) {
+    data[i] = newedit.trim();
+    crudList();
+    }
+    else{
+    alert("No change made");
+ }
 
 }
