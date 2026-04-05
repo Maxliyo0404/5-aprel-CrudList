@@ -10,7 +10,7 @@ function crudList (){
       ${item}
       <div>
           <button onclick ="edit(${i})">✏️</button>
-          <button onclick ="delete(${i})">🗑</button>
+          <button onclick ="del(${i})">🗑</button>
             </div>
        </li>
     `).join("");
