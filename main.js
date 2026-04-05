@@ -24,5 +24,9 @@ function add (){
  }
 }
 function edit(){
-    let new = prompt("Edit your item:")
+    let new = prompt("Edit your item:");
+    if(new && new.trim()) 
+    data[i] = new.trim();
+crudList();
+
 }
