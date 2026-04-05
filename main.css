@@ -30,7 +30,10 @@ h1{
    padding: 8px 12px;
    border: 1px solid #ccc;
    border-radius: 6px;
-    outline: none;
+   outline: none;
+    font-size: 14px;
+    color: #2d3436;
+    letter-spacing: 1px;
 }
 .button{
   background: #4A90E2;
@@ -44,4 +47,24 @@ h1{
     background: #357ABD;
     transform: scale(1.05);
   }
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    
+}
+li{
+    width: 270px;
+    background: #f9f9f9;
+    padding: 4px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+     font-size: 14px;
+    color: #2d3436;
+    letter-spacing: 1px;
+ 
 }
