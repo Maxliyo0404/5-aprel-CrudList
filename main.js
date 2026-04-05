@@ -7,8 +7,8 @@ function crudList (){
       ${item}
       <div>
           <button onclik ="edit(${i})>✏️</button>
-          <button onclik ="edit(${i})></button>
+          <button onclik ="edit(${i})>🗑</button>
             </div>
        </li>
-    `)
+    `).join("");
 }
