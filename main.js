@@ -39,6 +39,6 @@ function del (i){
         data.splice(i, 1); {
         crudList();
     } else {
-        
+        alert("Cancelled");
     }
 }
