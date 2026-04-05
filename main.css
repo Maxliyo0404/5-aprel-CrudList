@@ -7,8 +7,6 @@ body{
     align-items: center;
     justify-content: center;
 }
-
-
 .box{
  width: 350px;
  background: linear-gradient(to right, #ffafbd, #ffc3a0);
@@ -19,4 +17,11 @@ body{
  padding: 30px;
   border-radius: 12px;
   box-shadow: 0  15px 35px rgba(0, 0, 0, 0.2);
+}
+h1{
+    font-size: 28px;
+    color: #2d3436;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+
 }
