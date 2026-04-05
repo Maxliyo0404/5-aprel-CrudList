@@ -7,8 +7,8 @@ function crudList (){
     <li>
       ${item}
       <div>
-          <button onclick ="edit(${i})>✏️</button>
-          <button onclick ="delete(${i})>🗑</button>
+          <button onclick ="edit(${i})">✏️</button>
+          <button onclick ="delete(${i})"   >🗑</button>
             </div>
        </li>
     `).join("");
@@ -20,9 +20,9 @@ function add (){
  crudList();
  }
  else{
-    alert("")
+    alert("Please provide an input");
  }
 }
 function edit(){
-    let new
+    let new = prompt("Edit your item:")
 }
