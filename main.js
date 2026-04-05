@@ -1,5 +1,6 @@
 
 let data = [];
+let input = document.getElementById('input')
 
 function crudList (){
     if (event) event.preventDefault();
