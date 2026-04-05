@@ -2,6 +2,7 @@
 let data = [];
 
 function crudList (){
+    if (event) event.preventDefault;
     list.innerHTML = data.map((item, i) => `
     <li>
       ${item}
@@ -11,4 +12,7 @@ function crudList (){
             </div>
        </li>
     `).join("");
+}
+function add (){
+
 }
