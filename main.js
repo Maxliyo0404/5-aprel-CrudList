@@ -7,8 +7,8 @@ function crudList (){
     <li>
       ${item}
       <div>
-          <button onclik ="edit(${i})>✏️</button>
-          <button onclik ="delete(${i})>🗑</button>
+          <button onclick ="edit(${i})>✏️</button>
+          <button onclick ="delete(${i})>🗑</button>
             </div>
        </li>
     `).join("");
@@ -19,7 +19,10 @@ function add (){
  input.value = "";
  crudList();
  }
+ else{
+    alert("")
+ }
 }
 function edit(){
-    let 
+    let new
 }
