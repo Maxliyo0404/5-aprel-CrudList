@@ -26,7 +26,7 @@ function add (){
  }
 }
 function edit(i){
-    let newedit = prompt("Edit your item:");
+    let newedit = prompt("Edit your item ?");
     if(newedit && newedit.trim()) {
     data[i] = newedit.trim();
     crudList();
@@ -37,10 +37,11 @@ function edit(i){
 
 }
 function del (i){
-    if (confirm("Do you want to remove this ?"))
-        data.splice(i, 1); {
+    if (confirm("Do you want to remove this ?")){
+        data.splice(i, 1); 
         crudList();
-    } else {
+    } 
+    else {
         alert("Cancelled");
     }
 }
