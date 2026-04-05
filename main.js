@@ -35,8 +35,9 @@ function edit(i){
 
 }
 function del (i){
-    if (confirm()) {
-        
+    if (confirm("Do you want to remove this ?"))
+        data.splice(i, 1); {
+        crudList();
     } else {
         
     }
