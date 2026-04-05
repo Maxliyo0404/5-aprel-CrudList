@@ -9,8 +9,8 @@ function crudList (){
     <li>
       ${item}
       <div>
-          <button class="btn-edit" onclick ="edit(${i})">✏️Edit</button>
-          <button class="btn-del" onclick ="del(${i})">🗑Delete</button>
+          <button class="btn-edit" onclick ="edit(${i})">  ✏️Edit</button>
+          <button class="btn-del" onclick ="del(${i})">🗑  Delete</button>
             </div>
        </li>
     `).join("");
